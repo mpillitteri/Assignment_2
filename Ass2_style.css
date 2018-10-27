@@ -31,7 +31,7 @@ h2 {
 p {
   color: purple;
   font-size: 16px;
-  font-style: sans-serif;
+  font-family: sans-serif;
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -43,7 +43,7 @@ li {
 
 div li {
   color: darkgreen;
-  font: "Helvetica";
+  font: "Georgia"
 }
 
 #yellow-highlighter {
@@ -90,7 +90,7 @@ a {
   margin-left: 150px;
 }
 
-a:linked {
+a:link {
   color:blue;
 }
 a:visited {
