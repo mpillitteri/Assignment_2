@@ -1,0 +1,98 @@
+/* Instructions - Include:
+Properly link to an external style sheet file - DONE
+Create and implement a CSS class that changes the color of a piece of text - DONE (see h1, h2, etc)
+Create and implement a CSS class that changes the size of a piece of text - DONE (see h1, h2, etc)
+Create and implement a CSS class that changes the font of a piece of text - DONE (see h1, h2, etc)
+Create and implement a CSS class that transforms the case of a piece of text (lowercase, uppercase or capitalize) - DONE (see h1)
+Include at least one element that is positioned absolutely, relatively and fixed - DONE (see cow at bottom of page)
+Create at least one CSS class that uses nested selectors - DONE (see li vs div li)
+Create at least one CSS class that uses grouped selectors - DONE (See h1, h2 {font-family})
+Demonstrate the concepts of the “Box” model (margin, border, padding, content) at least once - DONE (see both boxes)
+*/
+
+body{
+  background-color: beige;
+}
+
+h1, h2 {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: purple;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+p {
+  color: purple;
+  font-size: 16px;
+  font-style: sans-serif;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+li {
+  font-style: italic;
+  color: blue;
+}
+
+div li {
+  color: darkgreen;
+  font: "Helvetica";
+}
+
+#yellow-highlighter {
+  background-color: yellow;
+}
+
+#wrapper {
+  background-color: beige;
+  margin:auto;
+  width: 1030px;
+  height:510px;
+}
+
+#leftbody {
+  background-color: ivory;
+  margin:auto;
+  border: 3px solid black;
+  padding-left: 5px;
+  width: 500px;
+  height: 480px;
+  float:left;
+}
+
+#rightbody {
+  background-color: ivory;
+  margin:auto;
+  border: 3px solid black;
+  padding-left: 5px;
+  width: 500px;
+  height: 480px;
+  float:right;
+}
+
+#cartoon {
+  position: fixed;
+  top: 500px;
+}
+
+#moreinfo {
+  margin-left: 150px;
+}
+
+a {
+  margin-left: 150px;
+}
+
+a:linked {
+  color:blue;
+}
+a:visited {
+  color:purple;
+}
